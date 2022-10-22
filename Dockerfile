@@ -1,9 +1,9 @@
 FROM node:16.15.1 as build
 WORKDIR /vidicaweb
 
-COPY package*.json ./
+COPY vidicaweb/package*.json ./
 RUN npm install
-COPY . ./
+COPY vidicaweb/. ./
 
 RUN npm run build
 FROM nginx:1.19
