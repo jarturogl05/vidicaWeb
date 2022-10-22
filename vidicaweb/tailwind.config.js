@@ -9,7 +9,9 @@ module.exports = {
       primaryDark: '#093768',
       primary: '#072146',
       white: '#FFFFFF',
-      secondary: '#CA016C'
+      secondary: '#CA016C',
+      pink: "#FAE6F1"
+      
     },
     fontSize: {
       sm: '0.8rem',
