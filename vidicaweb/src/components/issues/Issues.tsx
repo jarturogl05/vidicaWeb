@@ -24,7 +24,7 @@ const issues = [
     place: "Xalapa",
     address: "Xalapa",
     date: date,
-    issueDescription: "Solo se rompió",
+    issueDescription: "TARJETA ATORADA",
     status: "open",
     type: "credit"
   },
@@ -32,149 +32,18 @@ const issues = [
     place: "Xalapa",
     address: "Xalapa",
     date: date,
-    issueDescription: "Solo se rompió",
+    issueDescription: "FALTA DE EFECTIVO",
     status: "open",
     type: "user"
   },  {
     place: "Xalapa",
     address: "Xalapa",
     date: date,
-    issueDescription: "Solo se rompió",
+    issueDescription: "FALTA DE EFECTIVO",
     status: "open",
     type: "cash"
   },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "credit"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "user"
-  },  
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "cash"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "credit"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "user"
-  },  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "cash"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "credit"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "user"
-  },  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "cash"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "credit"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "user"
-  },  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "cash"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "credit"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "user"
-  },  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "cash"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "credit"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "user"
-  },
+
 ]
 
 
