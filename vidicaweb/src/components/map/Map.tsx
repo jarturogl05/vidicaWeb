@@ -79,7 +79,7 @@ const onSelectMarker = (atm: ATM) => {
 
 // @ts-ignore
 return (
-    <div className='h-[350px] w-full rounded-b-[30px] map-shadow'>
+    <div className='h-[450px] w-full rounded-b-[30px] map-shadow'>
         {
             isLoaded
                 ? (
