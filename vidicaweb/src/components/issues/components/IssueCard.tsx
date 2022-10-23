@@ -38,14 +38,14 @@ const IssueCard: React.FC<IssuePropI> = ({place, address, date, issueDescription
   return (
     <div className="flex flex-row border issue-card-box">
       <div>{renderIconIssue(type)}</div>
-      <div className="flex flex-col">
-        <div>{place}</div>
-        <div>{address}</div>
+      <div className="flex flex-col mx-10">
+        <div className="text-2xl text-primary">{place}</div>
+        <div className="text-base text-primary">{address}</div>
         <div className="flex flex-row">
           {renderDate(date)}
         </div>
-        <div>{issueDescription}</div>
-        <div>{status}</div>
+        <div className="text-2xl tex-bolder">{issueDescription}</div>
+        <div className="text-base text-secondary"> {status}</div>
         
       </div>
     </div>
