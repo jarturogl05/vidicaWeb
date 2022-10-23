@@ -7,7 +7,7 @@ function CardsContainer() {
     <div className='flex flex-row'>
         {/* <TotalAtm/> */}
         <Current text={"En este momento"}/>
-        <Current text={"Todo El día"} />
+        <Current text={"Todo el día"} />
 
     </div>
   )
