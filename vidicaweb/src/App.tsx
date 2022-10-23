@@ -11,7 +11,7 @@ function App() {
   return (isLoggedIn ? (
     <Home/>
   ) : (
-   <LoginScreen setSession={setIsLoggedIn}/>
+   <LoginScreen setState={setIsLoggedIn}/>
   )
   );
 }

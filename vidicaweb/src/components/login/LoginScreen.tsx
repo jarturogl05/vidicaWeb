@@ -1,4 +1,4 @@
-import React from "react";
+import React, { SetStateAction } from "react";
 import { Button } from "../buttons/Button";
 import { ButtonVariant } from "../buttons/buttonTypes";
 import { Header } from "../common/Header";
@@ -10,9 +10,11 @@ import { Title } from "../common/Title";
 import Login from "../../assets/login.png";
 import Footer from "./components/Footer";
 
+type Props = {
+  setState: React.Dispatch<React.SetStateAction<any>>;
+};
 
-
-const LoginScreen: React.FC<any> = (setSession: any) => {
+const LoginScreen: React.FC<Props> = ({setState}: Props) => {
   return (
     <div className="w-screen h-screen overflow-hidden flex flex-col">
       <div className="w-screen h-screen overflow-hidden flex flex-row">
@@ -39,7 +41,7 @@ const LoginScreen: React.FC<any> = (setSession: any) => {
           </div>
           <div className="flex flex-col justify-evenly items-center gap-[20px] mt-[40px]">
             <Button text="Ingresar" variant={ButtonVariant.PRIMARY} ></Button>
-            <button onClick={() => setSession(true)} />
+            <button onClick={(e) => setState(true)} >askjbfhijskdbgfkjdsfbakjsfnhbasdkj</button>
           </div>
         </div>
       </div>
