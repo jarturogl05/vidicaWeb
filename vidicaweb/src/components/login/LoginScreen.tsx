@@ -10,7 +10,9 @@ import { Title } from "../common/Title";
 import Login from "../../assets/login.png";
 import Footer from "./components/Footer";
 
-function LoginScreen() {
+
+
+const LoginScreen: React.FC<any> = (setSession: any) => {
   return (
     <div className="w-screen h-screen overflow-hidden flex flex-col">
       <div className="w-screen h-screen overflow-hidden flex flex-row">
@@ -36,7 +38,8 @@ function LoginScreen() {
             />
           </div>
           <div className="flex flex-col justify-evenly items-center gap-[20px] mt-[40px]">
-            <Button text="Ingresar" variant={ButtonVariant.PRIMARY} />
+            <Button text="Ingresar" variant={ButtonVariant.PRIMARY} ></Button>
+            <button onClick={() => setSession(true)} />
           </div>
         </div>
       </div>

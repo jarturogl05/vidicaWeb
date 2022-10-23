@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import LoginScreen from './components/login/LoginScreen';
 
@@ -7,8 +7,12 @@ import './App.css';
 import Home from './components/home/Home';
 
 function App() {
-  return (
-   <Home/>
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  return (isLoggedIn ? (
+    <Home/>
+  ) : (
+   <LoginScreen setSession={setIsLoggedIn}/>
+  )
   );
 }
 
