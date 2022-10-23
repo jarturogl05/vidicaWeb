@@ -16,14 +16,6 @@ const issues = [
     place: "Xalapa",
     address: "Xalapa",
     date: date,
-    issueDescription: "Solo se rompió",
-    status: "open",
-    type: "cash"
-  },
-  {
-    place: "Xalapa",
-    address: "Xalapa",
-    date: date,
     issueDescription: "TARJETA ATORADA",
     status: "open",
     type: "credit"
