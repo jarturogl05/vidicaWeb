@@ -5,7 +5,7 @@ import TotalAtm from './TotalAtm'
 function CardsContainer() {
   return (
     <div className='flex flex-row'>
-        <TotalAtm/>
+        {/* <TotalAtm/> */}
         <Current text={"En este momento"}/>
         <Current text={"Todo El día"} />
 
