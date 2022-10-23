@@ -51,8 +51,8 @@ const menuOptionList = [
 
 function NavigationBar() {
   return (
-    <div className=" h-screen  overflow-hidden flex flex-col navigation-bar-box">
-        <div className="py-10 flex justify-center">
+    <div className="overflow-auto	 flex flex-col  navigation-bar-box">
+        <div className="py-8 flex justify-center">
         <img src={Logo} alt="Logo" className='h-[100px]' />
 
         </div>
