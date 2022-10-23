@@ -12,7 +12,9 @@ function Home() {
         <HeaderBar />
         <div className="flex flex-row">
           <div className="flex basis-3/4">
-            <MapView />
+            <MapView atms={[]}
+                    currentLocation={{latitude: 19.42830985644588, longitude: -99.09717858496306}}
+                    totalResults={0} /> 
           </div>
           <div className="flex basis-1/4">
             <Issues />
