@@ -1,2 +1,2 @@
-# vidicaWeb
-Sistema web para vidica
+# VIDICAWeb
+Sistema web para VIDICA
