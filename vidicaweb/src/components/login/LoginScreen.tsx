@@ -40,8 +40,7 @@ const LoginScreen: React.FC<Props> = ({setState}: Props) => {
             />
           </div>
           <div className="flex flex-col justify-evenly items-center gap-[20px] mt-[40px]">
-            <Button text="Ingresar" variant={ButtonVariant.PRIMARY} ></Button>
-            <button onClick={(e) => setState(true)} >askjbfhijskdbgfkjdsfbakjsfnhbasdkj</button>
+            <Button text="Ingresar" variant={ButtonVariant.PRIMARY} setState={setState}></Button>
           </div>
         </div>
       </div>
