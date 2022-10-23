@@ -10,7 +10,7 @@ function Home() {
       <div className="flex flex-col w-screen">
         <HeaderBar />
         <div className="flex flex-row">
-          <div className="flex basis-2/3">map</div>
+          <div className="flex basis-3/4">map</div>
           <div className="flex basis-1/4">
             <Issues />
           </div>

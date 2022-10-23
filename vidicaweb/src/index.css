@@ -43,7 +43,8 @@
 
     .issues-box{
         border-left: 1px solid gray;
-
+        margin-right: 0%;
+        overflow: auto;
     }
 
     .issue-card-box{
