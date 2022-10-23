@@ -8,6 +8,7 @@ import FlagIcon from "../../assets/flag.png";
 import IssueCreditCardIcon from "../../assets/issue_creditcard_icon.png"
 import IssueMoneyIcon from "../../assets/issue_money_icon.png"
 import UserIssueIcon from "../../assets/user_issue_icon.png"
+import { Button } from "../buttons/Button";
 
 const date = new Date();
 const issues = [
@@ -181,9 +182,9 @@ function Issues() {
   return (
     <div className="flex flex-col h-screen issues-box">
       <div className="flex flex-row m-10 px-5  ">
-        <img src={FlagIcon} className="pr-10" />
+        <button className="pr-10"><img src={FlagIcon} /> Marcar</button>
         <div className="font-bold text-2xl text-primary">INCIDENCIAS</div>
-        <img src={HeaderIcon} className="px-10" />
+        <button className="px-10"><img src={HeaderIcon} /> Filtrar</button>
       </div>
       {issues.map((issue) => (
         <IssueCard
